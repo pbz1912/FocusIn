@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="row">
-  <div class="col w2">
+<div class="col w2">
     <h1>FocusIn</h1>
              
     <p><strong>FocusIn</strong> is a tool to help aid reading of websites. To try it out for yourself, click the button below.</p>
@@ -25,9 +25,7 @@
     <p>It may not work in some browers. I have tested it in Chrome and Firefox so far. It also won't work on touch screens as it uses mouse movements to control it.</p>
     
     <p>This was created by pbz1912. Inspired by <a href="http://www.ukoln.ac.uk/events/devcsi/accessibility_hackdays/index.html">a11yhack day by DevCSI</a> (I got the idea the night after).</p>
-  </div>
-  <div class="col w2">
-  
+    
     <h2>Contact</h2>
     <p>You may contact me via twitter <a href="http://twitter.com/pbz1912">@pbz1912</a>. Or via this <a href="http://shinymetalpixel.com/contact">contact form</a>. </p>
     <p>Any feedback is welcome.</p>
@@ -37,37 +35,33 @@
     <p>Exerpt of Alice's Adventures in Wonderland is in the public domain.</p>
     
     <h2>Code</h2>
-    <p>The code used is below. It was minified and inputted into a <a href="http://benalman.com/code/test/jquery-run-code-bookmarklet/">jQuery bookmarklet generator</a>.</p>
-    <p><code>if(!$('#fcsn1').length){
-  $('body').append('
-      &lt;div id="fcsn1" class="fcsn"/&gt;
-      &lt;div id="fcsn2" class="fcsn"/&gt;
-      '); //add elements
-}
-$('.fcsn').css({
-    'background': 'rgba(0,0,0,0.7)',
-    'position': 'absolute',
-    'width':'100%',
-    'left': '0'
-    });
-$('#fcsn1').css({
-    'top': '-30px',
-    'border-bottom': '30px solid rgba(0,0,0,.7)'
-    });
-$('#fcsn2').css({
-    'padding-top': '30px',
-    'border-top': '30px solid rgba(0,0,0,.7)'
-    });
-var BlockHeight = 100; // Change this to alter the height of the gap.
-
-$(document).mousemove(function(e){
-  var FocusInTop = e.pageY-(BlockHeight/2);
-  var FocusInBottomTop = e.pageY+(BlockHeight/2);
-  var FocusInBottom = $(document).height()-e.pageY-(BlockHeight);
-  $('#fcsn1').css('height', FocusInTop);
-  $('#fcsn2').css({'height': FocusInBottom,'top': FocusInBottomTop});
-});</code><p>
+    <p>The code is available on <a href="https://github.com/pbz1912/FocusIn">github</a></p>
   </div>
+<div class="col w2">
+  <h2>Options</h2>
+  <p>Form not plumbed in yet, don't try to use it yet</p>
+  <form id="options">
+    <label for="gap-height">Gap Height <small>in px [Default = 100]</small></label>
+    <input type="range" name="height" id="gap-height" value="100" min="10" max="250" data-highlight="true" />
+    <hr />
+    <label for="border-height-top">Border Height (top) <small>in px [Default = 30]</small></label>
+    <input type="range" name="border-height-top" id="border-height-top" value="30" min="0" max="100" data-highlight="true" />
+    
+    <label for="border-height-bottom">Border Height (bottom) <small>in px [Default = 30]</small></label>
+    <input type="range" name="border-height-bottom" id="border-height-bottom" value="30" min="0" max="100" data-highlight="true" />
+    <hr />
+    <label for="alpha-main">Transparency (main) <small>[Default = 0.7]</small></label>
+    <input type="range" name="alpha-main" id="alpha-main" value="0.7" min="0" max="1" step=".05" data-highlight="true" />
+
+    <label for="alpha-border">Transparency (border) <small>[Default = 0.7]</small></label>
+    <input type="range" name="alpha-border" id="alpha-border" value="0.7" min="0" max="1" step=".05" data-highlight="true" />
+    
+    <hr />
+    
+    
+    
+  </form>
+</div>
 </div>
 
 <div class="row">

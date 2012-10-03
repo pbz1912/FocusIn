@@ -7,7 +7,10 @@ body {
 }
 a {
   color: #56b3e6;
-}  
+}
+small {
+  color: #777;
+}
 .row {
   background: #fffeef
 } 
@@ -27,6 +30,7 @@ a {
   font-weight: bold;
   border-radius: 5px;
   font-size: 1.2em;
+  text-shadow: none;
 }
 
 code {
