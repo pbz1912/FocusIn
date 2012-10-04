@@ -19,6 +19,12 @@ This is still in a prototype phase. It has not been fully tested, especially wit
 
 It is unlikely that older browsers will ever be fully supported.
 
+## Roadmap
+
+1. Remove dependance on jquery
+2. Browser testing
+3. Customisable
+
 ## Copyright and License
 
 Copyright (c) 2012 Laura Dickinson
