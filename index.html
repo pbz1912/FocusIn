@@ -16,7 +16,7 @@
     <p><strong>FocusIn</strong> is a tool to help aid reading of websites. To try it out for yourself, click the button below.</p>
 
     <p class="button">
-    <a id="FocusInLaunch" href="javascript:(function(e,a,g,h,f,c,b,d){if(!(f=e.jQuery)||g>f.fn.jquery||h(f)){c=a.createElement(&quot;script&quot;);c.type=&quot;text/javascript&quot;;c.src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/&quot;+g+&quot;/jquery.min.js&quot;;c.onload=c.onreadystatechange=function(){if(!b&&(!(d=this.readyState)||d==&quot;loaded&quot;||d==&quot;complete&quot;)){h((f=e.jQuery).noConflict(1),b=1);f(c).remove()}};a.documentElement.childNodes[0].appendChild(c)}})(window,document,&quot;1.2.6&quot;,function($,L){if(!$(&quot;#fcsn1&quot;).length){$(&quot;body&quot;).append('<div id=&quot;fcsn1&quot; class=&quot;fcsn&quot;/><div id=&quot;fcsn2&quot; class=&quot;fcsn&quot;/>')}$(&quot;.fcsn&quot;).css({background:&quot;rgba(0,0,0,0.7)&quot;,position:&quot;absolute&quot;,width:&quot;100%&quot;,left:&quot;0&quot;});$(&quot;#fcsn1&quot;).css({top:&quot;-30px&quot;,&quot;border-bottom&quot;:&quot;30px solid rgba(0,0,0,.7)&quot;});$(&quot;#fcsn2&quot;).css({&quot;padding-top&quot;:&quot;30px&quot;,&quot;border-top&quot;:&quot;30px solid rgba(0,0,0,.7)&quot;});var BlockHeight=100;$(document).mousemove(function(c){var d=c.pageY-(BlockHeight/2);var b=c.pageY+(BlockHeight/2);var a=$(document).height()-c.pageY-(BlockHeight);$(&quot;#fcsn1&quot;).css(&quot;height&quot;,d);$(&quot;#fcsn2&quot;).css({height:a,top:b})});});">FocusIn</a></p>
+    <a id="FocusInLaunch" href="javascript:(function(){if(!document.getElementById('fcsn-c')){var fcsn=true;var fcsnT=document.createElement('div');fcsnT.setAttribute('id','fcsn-t');var fcsnB=document.createElement('div');fcsnB.setAttribute('id','fcsn-b');var fcsnC=document.createElement('div');fcsnC.setAttribute('id','fcsn-c');var body=document.body;body.insertBefore(fcsnT,body.childNodes[0]);body.insertBefore(fcsnB,body.childNodes[0]);body.insertBefore(fcsnC,body.childNodes[0]);document.getElementById('fcsn-c').innerText='Disable FocusIn';}})();">FocusIn</a></p>
 
     <p>FocusIn is a bookmarklet. That means you can either drag the button above to your bookmarks bar or right click to add to your bookmarks</p>
     
@@ -27,7 +27,7 @@
     <p>This was created by pbz1912. Inspired by <a href="http://www.ukoln.ac.uk/events/devcsi/accessibility_hackdays/index.html">a11yhack day by DevCSI</a> (I got the idea the night after).</p>
     
     <h2>Contact</h2>
-    <p>You may contact me via twitter <a href="http://twitter.com/pbz1912">@pbz1912</a>. Or via this <a href="http://shinymetalpixel.com/contact">contact form</a>. </p>
+    <p>You may contact me via twitter <a href="http://twitter.com/pbz1912">@pbz1912</a>.</p>
     <p>Any feedback is welcome.</p>
     
     <h2>Copyright</h2>
@@ -35,7 +35,7 @@
     <p>Exerpt of Alice's Adventures in Wonderland is in the public domain.</p>
     
     <h2>Code</h2>
-    <p>The code is available on <a href="https://github.com/pbz1912/FocusIn">github</a></p>
+    <p>The code is available on <a href="https://github.com/pbz1912/FocusIn">github</a>.</p>
   </div>
 <div class="col w2">
   <h2>Options</h2>
