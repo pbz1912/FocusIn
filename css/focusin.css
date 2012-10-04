@@ -12,3 +12,7 @@
   padding-top: 30px;
   border-top: 30px solid rgba(0,0,0,.7)
 }
+#fcsn-c {
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
