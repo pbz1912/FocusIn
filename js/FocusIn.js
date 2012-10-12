@@ -26,6 +26,7 @@ if(!document.getElementById('fcsn-c')){
   document.getElementById('fcsn-t').style.left='0';//left: 0;
   document.getElementById('fcsn-t').style.top='-30px';//top: -30px;
   document.getElementById('fcsn-t').style.borderBottom='30px solid rgba(0,0,0,.7)';//border-bottom: 30px solid rgba(0,0,0,.7)
+  document.getElementById('fcsn-t').style.zIndex='1000000';
   
   document.getElementById('fcsn-b').style.background='rgba(0,0,0,0.7)';//background: rgba(0,0,0,0.7);
   document.getElementById('fcsn-b').style.position='fixed';//position: fixed;
@@ -34,6 +35,7 @@ if(!document.getElementById('fcsn-c')){
   document.getElementById('fcsn-b').style.paddingTop='30px';//padding-top: 30px;
   document.getElementById('fcsn-b').style.borderTop='30px solid rgba(0,0,0,.7)';//border-top: 30px solid rgba(0,0,0,.7)
   document.getElementById('fcsn-b').style.height='100%';
+  document.getElementById('fcsn-b').style.zIndex='1000000';
   
   document.getElementById('fcsn-c').style.borderRadius='3px';//border-radius: 3px;
   document.getElementById('fcsn-c').style.border='1px solid #ccc';//border: 1px solid #ccc;
@@ -42,7 +44,7 @@ if(!document.getElementById('fcsn-c')){
   document.getElementById('fcsn-c').style.right='10px';
   document.getElementById('fcsn-c').style.padding='5px 10px';
   document.getElementById('fcsn-c').style.cursor='pointer';
-  document.getElementById('fcsn-c').style.zIndex='1000000';  
+  document.getElementById('fcsn-c').style.zIndex='1000002';  
   document.getElementById('fcsn-c').style.position='fixed';//position: fixed;
   
   
