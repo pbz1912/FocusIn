@@ -42,7 +42,7 @@ Please submit an issue if there are any websites or browsers which it is not beh
 
 ## Roadmap
 
-1. Remove dependance on jquery
+1. Remove dependance on jquery \[done!\]
 2. Browser testing
 3. Customisable
 
