@@ -28,11 +28,17 @@ These disabilities may include:
 2. Activate bookmark.
 3. Enjoy.
 
-## Warning
+## Browsers
 
-This is still in a prototype phase. It has not been fully tested, especially with Internet Explorer.
+It works, in principle, in:
++ Internet Explorer 9
++ Google Chrome (latest \- 22)
++ Firefox (latest \- 16)
++ and probably other standards compliant browsers.
 
-It is unlikely that older browsers will ever be fully supported.
+Please submit an issue if there are any websites or browsers which it is not behaving in. I will try to fix the issue or give an alternative. I am not intending to support anything below IE 8\.
+
+
 
 ## Roadmap
 
